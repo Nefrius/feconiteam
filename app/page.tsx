@@ -74,7 +74,7 @@ const teamMembers = [
   { name: "Berat Çavdar", role: "Takım Üyesi", area: "Elektrik Elektronik" },
   { name: "Halil Kuş", role: "Takım Üyesi", area: "Megatronik" },
   { name: "Çınar Yiğit", role: "Takım Üyesi", area: "Sosyal Medya Strateji" },
-  { name: "Sıla Kahraman", role: "Danışman", area: "Sosyal Medya" },
+  { name: "Sıla Kahriman", role: "Danışman", area: "Sosyal Medya" },
   { name: "Zeynep Gamze Savaşır", role: "Takım Üyesi", area: "3D Tasarım" },
   { name: "Cemal Kaan Hız", role: "Takım Üyesi", area: "3D Tasarım" },
 ];
