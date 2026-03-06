@@ -15,7 +15,7 @@ const navigation = [
 const stats = [
   { value: "2026", label: "TEKNOFEST odak yılı" },
   { value: "Lise", label: "Eğitim seviyesi" },
-  { value: "Sabit Kanat", label: "İHA platformu" },
+  { value: "3 Alan", label: "Roket, araba ve İHA" },
 ];
 
 const focusAreas = [
@@ -74,8 +74,8 @@ const teamMembers = [
   { name: "Berat Çavdar", role: "Takım Üyesi", area: "Elektrik Elektronik" },
   { name: "Halil Kuş", role: "Takım Üyesi", area: "Megatronik" },
   { name: "Çınar Yiğit", role: "Takım Üyesi", area: "Sosyal Medya Strateji" },
-  { name: "Sıla Kahriman", role: "Danışman", area: "Sosyal Medya" },
-  { name: "Zeynep Gamze Savaşcı", role: "Takım Üyesi", area: "3D Tasarım" },
+  { name: "Sıla Kahraman", role: "Danışman", area: "Sosyal Medya" },
+  { name: "Zeynep Gamze Savaşır", role: "Takım Üyesi", area: "3D Tasarım" },
   { name: "Cemal Kaan Hız", role: "Takım Üyesi", area: "3D Tasarım" },
 ];
 
@@ -370,12 +370,12 @@ export default function Home() {
           <div className="space-y-6">
             <p className="eyebrow text-xs text-zinc-500">Feconi Havacılık ve Uzay Takımı</p>
             <h1 className="text-balance max-w-4xl text-4xl font-semibold tracking-[-0.05em] text-zinc-950 sm:text-6xl lg:text-7xl">
-              TEKNOFEST için sabit kanat İHA geliştiren lise takımı.
+              TEKNOFEST için çok disiplinli projeler üreten lise takımı.
             </h1>
             <p className="max-w-2xl text-base leading-8 text-zinc-600 sm:text-xl">
-              Feconi olarak havacılık tutkusu ile bir araya geldik. Başvuru aşamasındaki
-              platformumuzu; disiplinli tasarım, sistem düşüncesi ve sahaya uygun üretim
-              prensipleriyle şekillendiriyoruz.
+              Feconi olarak havacılık ve teknoloji tutkusu ile bir araya geldik. Takım yapımızda
+              roket, araba ve İHA vizyonu birlikte bulunuyor; şu anki ana teknik odağımız ise
+              TEKNOFEST başvuru sürecindeki sabit kanat İHA platformu.
             </p>
           </div>
 
@@ -421,11 +421,11 @@ export default function Home() {
                   <p className="eyebrow text-xs text-zinc-500">Durum Özeti</p>
                   <div className="space-y-3">
                     <h2 className="text-2xl font-semibold tracking-tight text-zinc-950">
-                      Başvuru aşamasındayız, hedefimiz ise uçan ve gelişen bir sistem kurmak.
+                      Başvuru aşamasındayız, hedefimiz ise güçlü bir takım yapısını çalışan sistemlere dönüştürmek.
                     </h2>
                     <p className="leading-7 text-zinc-600">
-                      Takım yapımızı, teknik rollerimizi ve sabit kanat İHA konseptimizi TEKNOFEST
-                      beklentilerine uygun biçimde oluşturuyoruz.
+                      Takım yapımızı, teknik rollerimizi ve farklı proje başlıklarımızı TEKNOFEST
+                      beklentilerine uygun biçimde kuruyor; şu anda sabit kanat İHA konseptimizi önceliklendiriyoruz.
                     </p>
                   </div>
                 </div>
@@ -443,8 +443,8 @@ export default function Home() {
 
               <div className="grid gap-4">
                 {[
-                  ["Platform", "Sabit kanat İHA mimarisi"],
-                  ["Aşama", "Başvuru ve konsept geliştirme"],
+                  ["Güncel odak", "Sabit kanat İHA geliştirme"],
+                  ["Takım vizyonu", "Roket, araba ve İHA ekosistemi"],
                   ["Yaklaşım", "Planlı, öğrenmeye açık, iteratif"],
                 ].map(([label, value]) => (
                   <div key={label} className="rounded-3xl border border-black/8 bg-white/80 p-5 backdrop-blur">
@@ -476,7 +476,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Hakkımızda"
             title="Mühendislik merakını gerçek bir hava aracına dönüştüren bir öğrenci ekibiyiz."
-            description="Feconi Havacılık ve Uzay Takımı, lise seviyesinde teknik sorumluluk alarak TEKNOFEST sahnesine kendi sabit kanat İHA projesiyle çıkmayı hedefliyor. Bizim için bu süreç sadece bir yarışma değil; tasarlama, üretme, test etme ve birlikte gelişme deneyimi."
+            description="Feconi Havacılık ve Uzay Takımı, lise seviyesinde teknik sorumluluk alarak TEKNOFEST sahnesine çok disiplinli bir üretim kültürüyle çıkmayı hedefliyor. Roket, araba ve İHA başlıkları takım vizyonumuzun parçası; bugün ise enerjimizi sabit kanat İHA projesi üzerinde topluyoruz."
           />
 
           <div className="mt-10 grid gap-4 lg:grid-cols-3">
@@ -508,9 +508,9 @@ export default function Home() {
       <section id="odak" className="mx-auto max-w-6xl px-5 py-10 sm:px-6 lg:px-8 lg:py-14">
         <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <SectionHeading
-            eyebrow="Proje Odağı"
-            title="Sabit kanat bir sistemin sadece uçmasını değil, doğru temellerle gelişmesini planlıyoruz."
-            description="Teknik odağımız; hava aracı mimarisini bütünsel düşünmek, her alt sistemi görev ihtiyacı ile eşleştirmek ve kontrollü şekilde ilerletmek."
+            eyebrow="Güncel Teknik Odak"
+            title="Takımımız farklı alanlarda üretim hedefliyor; şu an odağımız sabit kanat İHA sistemini doğru temellerle geliştirmek."
+            description="Teknik odağımız şu aşamada hava aracı mimarisini bütünsel düşünmek, her alt sistemi görev ihtiyacı ile eşleştirmek ve kontrollü şekilde ilerletmek."
           />
 
           <div className="grid gap-4 sm:grid-cols-2">
@@ -650,11 +650,11 @@ export default function Home() {
             <div className="space-y-4">
               <p className="eyebrow text-xs text-zinc-500">Hedefimiz</p>
               <h2 className="text-balance max-w-3xl text-3xl font-semibold tracking-tight text-zinc-950 sm:text-4xl">
-                Feconi adını TEKNOFEST sahnesinde; öğrenmeye açık, üreten ve gelişen bir lise takımı olarak temsil etmek.
+                Feconi adını TEKNOFEST sahnesinde; farklı alanlarda üretim yapabilen, öğrenmeye açık ve gelişen bir lise takımı olarak temsil etmek.
               </h2>
               <p className="max-w-2xl text-base leading-7 text-zinc-600 sm:text-lg">
-                Bu proje, sadece bir hava aracı değil; aynı zamanda birlikte çalışma kültürümüzün,
-                teknik merakımızın ve uzun vadeli hedeflerimizin ilk somut adımı.
+                Bu süreç, sadece bir hava aracı üretmek değil; aynı zamanda roket, araba ve İHA gibi
+                farklı alanlarda gelişecek takım kültürümüzün ilk somut adımlarını atmak anlamına geliyor.
               </p>
             </div>
 

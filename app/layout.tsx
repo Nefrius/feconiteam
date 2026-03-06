@@ -17,7 +17,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "Feconi Havacılık ve Uzay Takımı",
   description:
-    "TEKNOFEST başvuru sürecindeki lise takımı Feconi Havacılık ve Uzay Takımı için hazırlanan sabit kanat İHA portfolyo sitesi.",
+    "TEKNOFEST başvuru sürecindeki Feconi Havacılık ve Uzay Takımı için hazırlanan; roket, araba ve İHA çalışmalarını yansıtan portfolyo sitesi.",
 };
 
 export default function RootLayout({
